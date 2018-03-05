@@ -1,344 +1,356 @@
 {
-  "people": [
-  {
-    "Id": "26ED5DAB-FF8F-45FD-ACDF-28CD38C53197",
-    "FirstName": "Ken",
-    "LastName": "Sánchez",
-    "Gender": "M",
-    "EmailAddress": "ken0@adventure-works.com",
-    "PhoneNumber": "697-555-0142",
-    "Address": {
-      "Id": "6436",
-      "AddressLine1": "56, avenue de l´Europe",
-      "AddressLine2": "",
-      "StateProvince": "Essonne",
-      "City": "Morangis",
-      "PostalCode": "91420",
-      "Country": "FR"
+  "addresses": [
+    {
+      "id": "6436",
+      "addressline1": "56, avenue de l´Europe",
+      "addressline2": "",
+      "stateprovince": "Essonne",
+      "city": "Morangis",
+      "postalcode": "91420",
+      "country": "FR",
+      "employeeId":"26ED5DAB-FF8F-45FD-ACDF-28CD38C53197"
+    },
+    {
+      "id": "12621",
+      "addressline1": "2616, rue de Linois",
+      "addressline2": "",
+      "stateprovince": "Hauts de Seine",
+      "city": "Sèvres",
+      "postalcode": "92310",
+      "country": "FR",
+      "employeeId":"26ED5DAB-FF8F-45FD-ACDF-28CD38C53197"
+    },
+    {
+      "id": "11957",
+      "addressline1": "2396 Mink Court",
+      "addressline2": "",
+      "stateprovince": "Oregon",
+      "city": "Corvallis",
+      "postalcode": "97330",
+      "country": "US",
+      "employeeId": "F9B6DEF8-D886-41E7-8E4E-4314F75226EA"
+    },
+    {
+      "id": "17935",
+      "addressline1": "2176 Apollo Way",
+      "addressline2": "",
+      "stateprovince": "Oregon",
+      "city": "Beaverton",
+      "postalcode": "97005",
+      "country": "US",
+      "employeeId": "B5D9E0E6-5BEA-4DC0-A86C-B43413ED66C6"
+    },
+    {
+      "id": "1564",
+      "addressline1": "8422 W. Holly Drive",
+      "addressline2": "",
+      "stateprovince": "Washington",
+      "city": "Renton",
+      "postalcode": "98055",
+      "country": "US",
+      "employeeId": "17DFF823-A4B8-4BF7-B42F-340DA6782BBE"
+    },
+    {
+      "id": "15363",
+      "addressline1": "6, route de Marseille",
+      "addressline2": "",
+      "stateprovince": "Nord",
+      "city": "Roncq",
+      "postalcode": "59223",
+      "country": "FR",
+      "employeeId": "D4F8EDEB-AA01-4469-9006-41219EFCC10C"
+    },
+    {
+      "id": "15142",
+      "addressline1": "9819 Anchor Court",
+      "addressline2": "",
+      "stateprovince": "California",
+      "city": "Beverly Hills",
+      "postalcode": "90210",
+      "country": "US",
+      "employeeId": "E4DC9312-D495-4B3F-919F-0506566002B6"
+    },
+    {
+      "id": "12076",
+      "addressline1": "76, avenue de Villiers",
+      "addressline2": "",
+      "stateprovince": "Essonne",
+      "city": "Verrieres Le Buisson",
+      "postalcode": "91370",
+      "country": "FR",
+      "employeeId": "F01352AE-55E3-4B22-A8F7-8F3FE0608450"
+    },
+    {
+      "id": "16346",
+      "addressline1": "9293 Mt. Washington Way",
+      "addressline2": "",
+      "stateprovince": "Oregon",
+      "city": "Portland",
+      "postalcode": "97205",
+      "country": "US",
+      "employeeId": "65E6396C-D29A-4D7C-98E7-D7BB35463162"
+    },
+    {
+      "id": "4506",
+      "addressline1": "277 South Royal Links",
+      "addressline2": "",
+      "stateprovince": "Washington",
+      "city": "Tacoma",
+      "postalcode": "98403",
+      "country": "US",
+      "employeeId": "90D81A46-6460-44D0-B8DB-5DB5AB16BEC3"
+    },
+    {
+      "id": "9288",
+      "addressline1": "9204 Birch Bark Dr.",
+      "addressline2": "",
+      "stateprovince": "California",
+      "city": "La Jolla",
+      "postalcode": "92806",
+      "country": "US",
+      "employeeId": "425A425F-9A47-48A0-B401-01EF8E11ABBB"
+    },
+    {
+      "id": "9867",
+      "addressline1": "2028 Mendocino Drive",
+      "addressline2": "",
+      "stateprovince": "Oregon",
+      "city": "Corvallis",
+      "postalcode": "97330",
+      "country": "US",
+      "employeeId": "DA16C6C5-9A0B-4E5C-819D-CABA25976B20"
+    },
+    {
+      "id": "8940",
+      "addressline1": "5606 Bay View Drive",
+      "addressline2": "",
+      "stateprovince": "Washington",
+      "city": "Sedro Woolley",
+      "postalcode": "98284",
+      "country": "US",
+      "employeeId": "B4515D4A-A55A-4DB5-A921-A3DAC04261AB"
+    },
+    {
+      "id": "630",
+      "addressline1": "Lincoln Square",
+      "addressline2": "",
+      "stateprovince": "Texas",
+      "city": "Arlington",
+      "postalcode": "76010",
+      "country": "US",
+      "employeeId": "0B054E55-D3CD-4784-9DC3-AFD33EB0DB5F"
+    },
+    {
+      "id": "14145",
+      "addressline1": "1048 Las Quebradas Lane",
+      "addressline2": "",
+      "stateprovince": "New South Wales",
+      "city": "Wollongong",
+      "postalcode": "2500",
+      "country": "AU",
+      "employeeId": "825740BB-2536-444E-8F14-A96F8A6399F8"
+    },
+    {
+      "id": "18744",
+      "addressline1": "9452 Mariposa Ct.",
+      "addressline2": "",
+      "stateprovince": "New South Wales",
+      "city": "Lavender Bay",
+      "postalcode": "2060",
+      "country": "AU",
+      "employeeId": "6DA66B55-CEC1-40B6-ACBD-9E66363068CE"
+    },
+    {
+      "id": "7070",
+      "addressline1": "5911, rue des Ecoles",
+      "addressline2": "",
+      "stateprovince": "Seine (Paris)",
+      "city": "Paris",
+      "postalcode": "75016",
+      "country": "FR",
+      "employeeId": "D744B818-BD30-47B4-8C00-3FD1D0E7CCD1"
+    },
+    {
+      "id": "1361",
+      "addressline1": "Knaackstr 756",
+      "addressline2": "",
+      "stateprovince": "Hamburg",
+      "city": "München",
+      "postalcode": "80074",
+      "country": "DE",
+      "employeeId": "D2AA3269-791D-4FF9-A5EA-E762BDCD8A6D"
+    },
+    {
+      "id": "1097",
+      "addressline1": "Corp Ofc Accts Payable",
+      "addressline2": "",
+      "stateprovince": "California",
+      "city": "El Segundo",
+      "postalcode": "90245",
+      "country": "US",
+      "employeeId": "AFC3127A-FB53-4E37-B989-1D1D4233A645"
     }
-  },
-  {
-    "Id": "9B320A43-0660-4AA0-AA33-6EAF1E21A4E3",
-    "FirstName": "Terri",
-    "LastName": "Duffy",
-    "Gender": "F",
-    "EmailAddress": "terri0@adventure-works.com",
-    "PhoneNumber": "819-555-0175",
-    "Address": {
-      "Id": "12621",
-      "AddressLine1": "2616, rue de Linois",
-      "AddressLine2": "",
-      "StateProvince": "Hauts de Seine",
-      "City": "Sèvres",
-      "PostalCode": "92310",
-      "Country": "FR"
+  ],
+  "employees": [
+    {
+      "id": "26ED5DAB-FF8F-45FD-ACDF-28CD38C53197",
+      "firstname": "Ken",
+      "lastname": "Sanchez",
+      "gender": "M",
+      "emailaddress": "ken0@adventure-works.com",
+      "phonenumber": "697-555-0142"
+    },
+    {
+      "id": "9B320A43-0660-4AA0-AA33-6EAF1E21A4E3",
+      "firstname": "Terri",
+      "lastname": "Duffy",
+      "gender": "F",
+      "emailaddress": "terri0@adventure-works.com",
+      "phonenumber": "819-555-0175"
+    },
+    {
+      "id": "62FC37A4-9DC5-4267-A363-F192E18C97B1",
+      "firstname": "Roberto",
+      "lastname": "Tamburello",
+      "gender": "M",
+      "emailaddress": "roberto0@adventure-works.com",
+      "phonenumber": "212-555-0187"
+    },
+    {
+      "id": "17DFF823-A4B8-4BF7-B42F-340DA6782BBE",
+      "firstname": "Rob",
+      "lastname": "Walters",
+      "gender": "M",
+      "emailaddress": "rob0@adventure-works.com",
+      "phonenumber": "612-555-0100"
+    },
+    {
+      "id": "D4F8EDEB-AA01-4469-9006-41219EFCC10C",
+      "firstname": "Gail",
+      "lastname": "Erickson",
+      "gender": "F",
+      "emailaddress": "gail0@adventure-works.com",
+      "phonenumber": "849-555-0139"
+    },
+    {
+      "id": "E4DC9312-D495-4B3F-919F-0506566002B6",
+      "firstname": "Jossef",
+      "lastname": "Goldberg",
+      "gender": "M",
+      "emailaddress": "jossef0@adventure-works.com",
+      "phonenumber": "122-555-0189"
+    },
+    {
+      "id": "F01352AE-55E3-4B22-A8F7-8F3FE0608450",
+      "firstname": "Dylan",
+      "lastname": "Miller",
+      "gender": "M",
+      "emailaddress": "dylan0@adventure-works.com",
+      "phonenumber": "181-555-0156"
+    },
+    {
+      "id": "65E6396C-D29A-4D7C-98E7-D7BB35463162",
+      "firstname": "Diane",
+      "lastname": "Margheim",
+      "gender": "F",
+      "emailaddress": "diane1@adventure-works.com",
+      "phonenumber": "815-555-0138"
+    },
+    {
+      "id": "90D81A46-6460-44D0-B8DB-5DB5AB16BEC3",
+      "firstname": "Gigi",
+      "lastname": "Matthew",
+      "gender": "F",
+      "emailaddress": "gigi0@adventure-works.com",
+      "phonenumber": "185-555-0186"
+    },
+    {
+      "id": "425A425F-9A47-48A0-B401-01EF8E11ABBB",
+      "firstname": "Michael",
+      "lastname": "Raheem",
+      "gender": "M",
+      "emailaddress": "michael6@adventure-works.com",
+      "phonenumber": "330-555-2568"
+    },
+    {
+      "id": "DA16C6C5-9A0B-4E5C-819D-CABA25976B20",
+      "firstname": "OvIdiu",
+      "lastname": "Cracium",
+      "gender": "M",
+      "emailaddress": "ovIdiu0@adventure-works.com",
+      "phonenumber": "719-555-0181"
+    },
+    {
+      "id": "B4515D4A-A55A-4DB5-A921-A3DAC04261AB",
+      "firstname": "Thierry",
+      "lastname": "D'Hers",
+      "gender": "M",
+      "emailaddress": "thierry0@adventure-works.com",
+      "phonenumber": "168-555-0183"
+    },
+    {
+      "id": "0B054E55-D3CD-4784-9DC3-AFD33EB0DB5F",
+      "firstname": "Janice",
+      "lastname": "Galvin",
+      "gender": "F",
+      "emailaddress": "janice0@adventure-works.com",
+      "phonenumber": "473-555-0117"
+    },
+    {
+      "id": "825740BB-2536-444E-8F14-A96F8A6399F8",
+      "firstname": "Michael",
+      "lastname": "Sullivan",
+      "gender": "M",
+      "emailaddress": "michael8@adventure-works.com",
+      "phonenumber": "465-555-0156"
+    },
+    {
+      "id": "6DA66B55-CEC1-40B6-ACBD-9E66363068CE",
+      "firstname": "Sharon",
+      "lastname": "Salavaria",
+      "gender": "F",
+      "emailaddress": "sharon0@adventure-works.com",
+      "phonenumber": "970-555-0138"
+    },
+    {
+      "id": "D744B818-BD30-47B4-8C00-3FD1D0E7CCD1",
+      "firstname": "David",
+      "lastname": "Bradley",
+      "gender": "M",
+      "emailaddress": "david0@adventure-works.com",
+      "phonenumber": "913-555-0172"
+    },
+    {
+      "id": "D2AA3269-791D-4FF9-A5EA-E762BDCD8A6D",
+      "firstname": "Kevin",
+      "lastname": "Brown",
+      "gender": "M",
+      "emailaddress": "kevin0@adventure-works.com",
+      "phonenumber": "150-555-0189"
+    },
+    {
+      "id": "AFC3127A-FB53-4E37-B989-1D1D4233A645",
+      "firstname": "John",
+      "lastname": "Wood",
+      "gender": "M",
+      "emailaddress": "john5@adventure-works.com",
+      "phonenumber": "486-555-0150"
+    },
+    {
+      "id": "B5D9E0E6-5BEA-4DC0-A86C-B43413ED66C6",
+      "firstname": "Mary",
+      "lastname": "Dempsey",
+      "gender": "F",
+      "emailaddress": "mary2@adventure-works.com",
+      "phonenumber": "124-555-0114"
+    },
+    {
+      "id": "F9B6DEF8-D886-41E7-8E4E-4314F75226EA",
+      "firstname": "WanIda",
+      "lastname": "Benshoof",
+      "gender": "F",
+      "emailaddress": "wanIda0@adventure-works.com",
+      "phonenumber": "708-555-0141"
     }
-  },
-  {
-    "Id": "62FC37A4-9DC5-4267-A363-F192E18C97B1",
-    "FirstName": "Roberto",
-    "LastName": "Tamburello",
-    "Gender": "M",
-    "EmailAddress": "roberto0@adventure-works.com",
-    "PhoneNumber": "212-555-0187",
-    "Address": {
-      "Id": "19144",
-      "AddressLine1": "8753 Jacaranda Dr.",
-      "AddressLine2": "",
-      "StateProvince": "New South Wales",
-      "City": "Lane Cove",
-      "PostalCode": "1597",
-      "Country": "AU"
-    }
-  },
-  {
-    "Id": "17DFF823-A4B8-4BF7-B42F-340DA6782BBE",
-    "FirstName": "Rob",
-    "LastName": "Walters",
-    "Gender": "M",
-    "EmailAddress": "rob0@adventure-works.com",
-    "PhoneNumber": "612-555-0100",
-    "Address": {
-      "Id": "1564",
-      "AddressLine1": "8422 W. Holly Drive",
-      "AddressLine2": "",
-      "StateProvince": "Washington",
-      "City": "Renton",
-      "PostalCode": "98055",
-      "Country": "US"
-    }
-  },
-  {
-    "Id": "D4F8EDEB-AA01-4469-9006-41219EFCC10C",
-    "FirstName": "Gail",
-    "LastName": "Erickson",
-    "Gender": "F",
-    "EmailAddress": "gail0@adventure-works.com",
-    "PhoneNumber": "849-555-0139",
-    "Address": {
-      "Id": "15363",
-      "AddressLine1": "6, route de Marseille",
-      "AddressLine2": "",
-      "StateProvince": "Nord",
-      "City": "Roncq",
-      "PostalCode": "59223",
-      "Country": "FR"
-    }
-  },
-  {
-    "Id": "E4DC9312-D495-4B3F-919F-0506566002B6",
-    "FirstName": "Jossef",
-    "LastName": "Goldberg",
-    "Gender": "M",
-    "EmailAddress": "jossef0@adventure-works.com",
-    "PhoneNumber": "122-555-0189",
-    "Address": {
-      "Id": "15142",
-      "AddressLine1": "9819 Anchor Court",
-      "AddressLine2": "",
-      "StateProvince": "California",
-      "City": "Beverly Hills",
-      "PostalCode": "90210",
-      "Country": "US"
-    }
-  },
-  {
-    "Id": "F01352AE-55E3-4B22-A8F7-8F3FE0608450",
-    "FirstName": "Dylan",
-    "LastName": "Miller",
-    "Gender": "M",
-    "EmailAddress": "dylan0@adventure-works.com",
-    "PhoneNumber": "181-555-0156",
-    "Address": {
-      "Id": "12076",
-      "AddressLine1": "76, avenue de Villiers",
-      "AddressLine2": "",
-      "StateProvince": "Essonne",
-      "City": "Verrieres Le Buisson",
-      "PostalCode": "91370",
-      "Country": "FR"
-    }
-  },
-  {
-    "Id": "65E6396C-D29A-4D7C-98E7-D7BB35463162",
-    "FirstName": "Diane",
-    "LastName": "Margheim",
-    "Gender": "F",
-    "EmailAddress": "diane1@adventure-works.com",
-    "PhoneNumber": "815-555-0138",
-    "Address": {
-      "Id": "16346",
-      "AddressLine1": "9293 Mt. Washington Way",
-      "AddressLine2": "",
-      "StateProvince": "Oregon",
-      "City": "Portland",
-      "PostalCode": "97205",
-      "Country": "US"
-    }
-  },
-  {
-    "Id": "90D81A46-6460-44D0-B8DB-5DB5AB16BEC3",
-    "FirstName": "Gigi",
-    "LastName": "Matthew",
-    "Gender": "F",
-    "EmailAddress": "gigi0@adventure-works.com",
-    "PhoneNumber": "185-555-0186",
-    "Address": {
-      "Id": "4506",
-      "AddressLine1": "277 South Royal Links",
-      "AddressLine2": "",
-      "StateProvince": "Washington",
-      "City": "Tacoma",
-      "PostalCode": "98403",
-      "Country": "US"
-    }
-  },
-  {
-    "Id": "425A425F-9A47-48A0-B401-01EF8E11ABBB",
-    "FirstName": "Michael",
-    "LastName": "Raheem",
-    "Gender": "M",
-    "EmailAddress": "michael6@adventure-works.com",
-    "PhoneNumber": "330-555-2568",
-    "Address": {
-      "Id": "9288",
-      "AddressLine1": "9204 Birch Bark Dr.",
-      "AddressLine2": "",
-      "StateProvince": "California",
-      "City": "La Jolla",
-      "PostalCode": "92806",
-      "Country": "US"
-    }
-  },
-  {
-    "Id": "DA16C6C5-9A0B-4E5C-819D-CABA25976B20",
-    "FirstName": "OvIdiu",
-    "LastName": "Cracium",
-    "Gender": "M",
-    "EmailAddress": "ovIdiu0@adventure-works.com",
-    "PhoneNumber": "719-555-0181",
-    "Address": {
-      "Id": "9867",
-      "AddressLine1": "2028 Mendocino Drive",
-      "AddressLine2": "",
-      "StateProvince": "Oregon",
-      "City": "Corvallis",
-      "PostalCode": "97330",
-      "Country": "US"
-    }
-  },
-  {
-    "Id": "B4515D4A-A55A-4DB5-A921-A3DAC04261AB",
-    "FirstName": "Thierry",
-    "LastName": "D'Hers",
-    "Gender": "M",
-    "EmailAddress": "thierry0@adventure-works.com",
-    "PhoneNumber": "168-555-0183",
-    "Address": {
-      "Id": "8940",
-      "AddressLine1": "5606 Bay View Drive",
-      "AddressLine2": "",
-      "StateProvince": "Washington",
-      "City": "Sedro Woolley",
-      "PostalCode": "98284",
-      "Country": "US"
-    }
-  },
-  {
-    "Id": "0B054E55-D3CD-4784-9DC3-AFD33EB0DB5F",
-    "FirstName": "Janice",
-    "LastName": "Galvin",
-    "Gender": "F",
-    "EmailAddress": "janice0@adventure-works.com",
-    "PhoneNumber": "473-555-0117",
-    "Address": {
-      "Id": "630",
-      "AddressLine1": "Lincoln Square",
-      "AddressLine2": "",
-      "StateProvince": "Texas",
-      "City": "Arlington",
-      "PostalCode": "76010",
-      "Country": "US"
-    }
-  },
-  {
-    "Id": "825740BB-2536-444E-8F14-A96F8A6399F8",
-    "FirstName": "Michael",
-    "LastName": "Sullivan",
-    "Gender": "M",
-    "EmailAddress": "michael8@adventure-works.com",
-    "PhoneNumber": "465-555-0156",
-    "Address": {
-      "Id": "14145",
-      "AddressLine1": "1048 Las Quebradas Lane",
-      "AddressLine2": "",
-      "StateProvince": "New South Wales",
-      "City": "Wollongong",
-      "PostalCode": "2500",
-      "Country": "AU"
-    }
-  },
-  {
-    "Id": "6DA66B55-CEC1-40B6-ACBD-9E66363068CE",
-    "FirstName": "Sharon",
-    "LastName": "Salavaria",
-    "Gender": "F",
-    "EmailAddress": "sharon0@adventure-works.com",
-    "PhoneNumber": "970-555-0138",
-    "Address": {
-      "Id": "18744",
-      "AddressLine1": "9452 Mariposa Ct.",
-      "AddressLine2": "",
-      "StateProvince": "New South Wales",
-      "City": "Lavender Bay",
-      "PostalCode": "2060",
-      "Country": "AU"
-    }
-  },
-  {
-    "Id": "D744B818-BD30-47B4-8C00-3FD1D0E7CCD1",
-    "FirstName": "David",
-    "LastName": "Bradley",
-    "Gender": "M",
-    "EmailAddress": "david0@adventure-works.com",
-    "PhoneNumber": "913-555-0172",
-    "Address": {
-      "Id": "7070",
-      "AddressLine1": "5911, rue des Ecoles",
-      "AddressLine2": "",
-      "StateProvince": "Seine (Paris)",
-      "City": "Paris",
-      "PostalCode": "75016",
-      "Country": "FR"
-    }
-  },
-  {
-    "Id": "D2AA3269-791D-4FF9-A5EA-E762BDCD8A6D",
-    "FirstName": "Kevin",
-    "LastName": "Brown",
-    "Gender": "M",
-    "EmailAddress": "kevin0@adventure-works.com",
-    "PhoneNumber": "150-555-0189",
-    "Address": {
-      "Id": "1361",
-      "AddressLine1": "Knaackstr 756",
-      "AddressLine2": "",
-      "StateProvince": "Hamburg",
-      "City": "München",
-      "PostalCode": "80074",
-      "Country": "DE"
-    }
-  },
-  {
-    "Id": "AFC3127A-FB53-4E37-B989-1D1D4233A645",
-    "FirstName": "John",
-    "LastName": "Wood",
-    "Gender": "M",
-    "EmailAddress": "john5@adventure-works.com",
-    "PhoneNumber": "486-555-0150",
-    "Address": {
-      "Id": "1097",
-      "AddressLine1": "Corp Ofc Accts Payable",
-      "AddressLine2": "",
-      "StateProvince": "California",
-      "City": "El Segundo",
-      "PostalCode": "90245",
-      "Country": "US"
-    }
-  },
-  {
-    "Id": "B5D9E0E6-5BEA-4DC0-A86C-B43413ED66C6",
-    "FirstName": "Mary",
-    "LastName": "Dempsey",
-    "Gender": "F",
-    "EmailAddress": "mary2@adventure-works.com",
-    "PhoneNumber": "124-555-0114",
-    "Address": {
-      "Id": "17935",
-      "AddressLine1": "2176 Apollo Way",
-      "AddressLine2": "",
-      "StateProvince": "Oregon",
-      "City": "Beaverton",
-      "PostalCode": "97005",
-      "Country": "US"
-    }
-  },
-  {
-    "Id": "F9B6DEF8-D886-41E7-8E4E-4314F75226EA",
-    "FirstName": "WanIda",
-    "LastName": "Benshoof",
-    "Gender": "F",
-    "EmailAddress": "wanIda0@adventure-works.com",
-    "PhoneNumber": "708-555-0141",
-    "Address": {
-      "Id": "11957",
-      "AddressLine1": "2396 Mink Court",
-      "AddressLine2": "",
-      "StateProvince": "Oregon",
-      "City": "Corvallis",
-      "PostalCode": "97330",
-      "Country": "US"
-    }
-  }
-]
+  ]
 }
